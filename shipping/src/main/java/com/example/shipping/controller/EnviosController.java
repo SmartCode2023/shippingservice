@@ -20,7 +20,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/envios")
+@RequestMapping("/shipping/envios")
 public class EnviosController {
     @Autowired
     private EnviosService enviosService;
@@ -48,6 +48,12 @@ public class EnviosController {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
+
+    @GetMapping("/enviosporusuario/{id}")
+    public ResponseEntity<List<Envios>> getEnviosByCostumer(@PathVariable Integer id) {
+        return ResponseEntity.ok(enviosService.getEnviosByCostumer(id));
+    }
+
     @PostMapping
     public ResponseEntity<Envios> createEnvios(@RequestBody Envios envios) {
 

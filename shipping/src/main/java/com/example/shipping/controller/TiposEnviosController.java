@@ -12,7 +12,7 @@ import com.example.shipping.services.TiposEnviosService;
 
 
 @RestController
-@RequestMapping("/tiposEnvios")
+@RequestMapping("/shipping/tiposEnvios")
 public class TiposEnviosController {
     @Autowired
     private TiposEnviosService tiposEnviosService;

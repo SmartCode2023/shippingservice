@@ -18,7 +18,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/direcciones")
+@RequestMapping("/shipping/direcciones")
 public class DireccionesController {
     @Autowired
     private DireccionesService direccionesService;

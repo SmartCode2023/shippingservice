@@ -14,7 +14,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/ciudades")
+@RequestMapping("/shipping/ciudades")
 public class CiudadesController {
     @Autowired
     private CiudadesService ciudadesService;

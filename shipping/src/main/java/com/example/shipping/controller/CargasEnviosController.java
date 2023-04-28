@@ -16,7 +16,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/cargasEnviosCondicionesDeRiesgo")
+@RequestMapping("/shipping/cargasEnviosCondicionesDeRiesgo")
 public class CargasEnviosController {
     @Autowired
     private CargasEnviosCondicionesDeRiesgoService cargasEnviosCondicionesDeRiesgoService;

@@ -14,7 +14,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/vehiculos")
+@RequestMapping("/shipping/vehiculos")
 public class VehiculosController {
     @Autowired
     private TiposVehiculosService tiposVehiculosService;

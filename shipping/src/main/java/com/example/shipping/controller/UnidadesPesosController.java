@@ -12,7 +12,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/unidadesPesos")
+@RequestMapping("/shipping/unidadesPesos")
 public class UnidadesPesosController {
     @Autowired
     private UnidadesPesosService unidadesPesosService;

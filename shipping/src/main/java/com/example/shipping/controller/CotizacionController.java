@@ -11,7 +11,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/cotizar")
+@RequestMapping("/shipping/cotizar")
 public class CotizacionController {
 
     @GetMapping

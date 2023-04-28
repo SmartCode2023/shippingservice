@@ -12,7 +12,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/estadosDeEnvios")
+@RequestMapping("/shipping/estadosDeEnvios")
 public class EstadosDeEnviosController {
     @Autowired
     private EstadosDeEnviosService estadosDeEnviosService;

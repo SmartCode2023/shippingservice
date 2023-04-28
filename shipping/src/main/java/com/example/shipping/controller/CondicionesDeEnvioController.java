@@ -12,7 +12,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/condicionesDeEnvio")
+@RequestMapping("/shipping/condicionesDeEnvio")
 public class CondicionesDeEnvioController {
     @Autowired
     private CondicionesDeEnvioService condicionesDeEnvioService;

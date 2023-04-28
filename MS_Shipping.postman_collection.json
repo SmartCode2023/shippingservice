@@ -14,13 +14,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9091/tiposVehiculos",
+							"raw": "http://localhost:9091/shipping/tiposVehiculos",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"tiposVehiculos"
 							]
 						}
@@ -42,13 +43,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/tiposVehiculos",
+							"raw": "http://localhost:9091/shipping/tiposVehiculos",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"tiposVehiculos"
 							]
 						}
@@ -70,13 +72,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/tiposVehiculos",
+							"raw": "http://localhost:9091/shipping/tiposVehiculos",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"tiposVehiculos"
 							]
 						}
@@ -90,7 +93,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"id\": 1,\r\n  \"nombre\":\"Bus\"\r\n}",
+							"raw": "{\r\n   \"id\": 7,\r\n  \"nombre\":\"Taxi\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -98,15 +101,16 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/tiposVehiculos/1",
+							"raw": "http://localhost:9091/shippings/tiposVehiculos/7",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shippings",
 								"tiposVehiculos",
-								"1"
+								"7"
 							]
 						}
 					},
@@ -127,15 +131,16 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/tiposVehiculos/3",
+							"raw": "http://localhost:9091/shipping/tiposVehiculos/5",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"tiposVehiculos",
-								"3"
+								"5"
 							]
 						}
 					},
@@ -164,13 +169,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/vehiculos",
+							"raw": "http://localhost:9091/shipping/vehiculos",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"vehiculos"
 							]
 						}
@@ -192,13 +198,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/vehiculos",
+							"raw": "http://localhost:9091/shipping/vehiculos",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"vehiculos"
 							]
 						}
@@ -220,13 +227,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/vehiculos",
+							"raw": "http://localhost:9091/shipping/vehiculos",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"vehiculos"
 							]
 						}
@@ -248,13 +256,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/vehiculos/3",
+							"raw": "http://localhost:9091/shipping/vehiculos/3",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"vehiculos",
 								"3"
 							]
@@ -277,13 +286,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/vehiculos/2",
+							"raw": "http://localhost:9091/shipping/vehiculos/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"vehiculos",
 								"2"
 							]
@@ -302,13 +312,17 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9091/paises",
+							"raw": "http://172.19.0.3:9091/shipping/paises",
 							"protocol": "http",
 							"host": [
-								"localhost"
+								"172",
+								"19",
+								"0",
+								"3"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"paises"
 							]
 						}
@@ -330,13 +344,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/paises",
+							"raw": "http://localhost:9091/shipping/paises",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"paises"
 							]
 						}
@@ -358,13 +373,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/paises",
+							"raw": "http://localhost:9091/shipping/paises",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"paises"
 							]
 						}
@@ -386,13 +402,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/paises/1",
+							"raw": "http://localhost:9091/shipping/paises/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"paises",
 								"1"
 							]
@@ -415,13 +432,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/paises/2",
+							"raw": "http://localhost:9091/shipping/paises/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"paises",
 								"2"
 							]
@@ -452,13 +470,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/departamentosEstados",
+							"raw": "http://localhost:9091/shipping/departamentosEstados",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"departamentosEstados"
 							]
 						}
@@ -480,13 +499,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/departamentosEstados",
+							"raw": "http://localhost:9091/shipping/departamentosEstados",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"departamentosEstados"
 							]
 						}
@@ -508,13 +528,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/departamentosEstados",
+							"raw": "http://localhost:9091/shipping/departamentosEstados",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"departamentosEstados"
 							]
 						}
@@ -536,13 +557,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/departamentosEstados/2",
+							"raw": "http://localhost:9091/shipping/departamentosEstados/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"departamentosEstados",
 								"2"
 							]
@@ -565,13 +587,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/departamentosEstados/2",
+							"raw": "http://localhost:9091/shipping/departamentosEstados/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"departamentosEstados",
 								"2"
 							]
@@ -590,13 +613,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9091/ciudades",
+							"raw": "http://localhost:9091/shipping/ciudades",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"ciudades"
 							]
 						}
@@ -618,13 +642,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/ciudades",
+							"raw": "http://localhost:9091/shipping/ciudades",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"ciudades"
 							]
 						}
@@ -646,13 +671,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/ciudades",
+							"raw": "http://localhost:9091/shipping/ciudades",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"ciudades"
 							]
 						}
@@ -674,13 +700,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/ciudades/1",
+							"raw": "http://localhost:9091/shipping/ciudades/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"ciudades",
 								"1"
 							]
@@ -703,13 +730,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/ciudades/2",
+							"raw": "http://localhost:9091/shipping/ciudades/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"ciudades",
 								"2"
 							]
@@ -728,13 +756,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9091/direcciones",
+							"raw": "http://localhost:9091/shipping/direcciones",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"direcciones"
 							]
 						}
@@ -756,13 +785,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/direcciones",
+							"raw": "http://localhost:9091/shipping/direcciones",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"direcciones"
 							]
 						}
@@ -784,13 +814,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/direcciones",
+							"raw": "http://localhost:9091/shipping/direcciones",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"direcciones"
 							]
 						}
@@ -804,7 +835,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"id\": 1,\r\n  \"direccion\":\"Carrera 13 #45, Int 8, Apt 201\",\r\n  \"paisId\": 1,\r\n  \"departamentoEstadoId\": 1,\r\n  \"ciudadId\": 1,\r\n  \"codigoPostal\": 1212\r\n}",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"direccion\":\"Carrera 3\",\r\n  \"paisId\": 1,\r\n  \"departamentoEstadoId\": 1,\r\n  \"ciudadId\": 1,\r\n  \"codigoPostal\": 44\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -812,13 +843,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/direcciones/1",
+							"raw": "http://localhost:9091/shipping/direcciones/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"direcciones",
 								"1"
 							]
@@ -841,13 +873,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/direcciones/2",
+							"raw": "http://localhost:9091/shipping/direcciones/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"direcciones",
 								"2"
 							]
@@ -866,13 +899,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9091/estadosDeEnvios",
+							"raw": "http://localhost:9091/shipping/estadosDeEnvios",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"estadosDeEnvios"
 							]
 						}
@@ -894,13 +928,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/estadosDeEnvios",
+							"raw": "http://localhost:9091/shipping/estadosDeEnvios",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"estadosDeEnvios"
 							]
 						}
@@ -922,13 +957,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/estadosDeEnvios",
+							"raw": "http://localhost:9091/shipping/estadosDeEnvios",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"estadosDeEnvios"
 							]
 						}
@@ -950,13 +986,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/estadosDeEnvios/1",
+							"raw": "http://localhost:9091/shipping/estadosDeEnvios/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"estadosDeEnvios",
 								"1"
 							]
@@ -979,13 +1016,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/estadosDeEnvios/2",
+							"raw": "http://localhost:9091/shipping/estadosDeEnvios/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"estadosDeEnvios",
 								"2"
 							]
@@ -1016,13 +1054,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/tiposEnvios",
+							"raw": "http://localhost:9091/shipping/tiposEnvios",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"tiposEnvios"
 							]
 						}
@@ -1044,13 +1083,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/tiposEnvios",
+							"raw": "http://localhost:9091/shipping/tiposEnvios",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"tiposEnvios"
 							]
 						}
@@ -1072,13 +1112,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/tiposEnvios",
+							"raw": "http://localhost:9091/shipping/tiposEnvios",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"tiposEnvios"
 							]
 						}
@@ -1100,13 +1141,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/tiposEnvios/1",
+							"raw": "http://localhost:9091/shipping/tiposEnvios/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"tiposEnvios",
 								"1"
 							]
@@ -1129,13 +1171,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/tiposEnvios/2",
+							"raw": "http://localhost:9091/shipping/tiposEnvios/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"tiposEnvios",
 								"2"
 							]
@@ -1149,19 +1192,22 @@
 			"name": "Envios",
 			"item": [
 				{
-					"name": "getAllEnvios",
+					"name": "getEnviosPorUsuario",
 					"request": {
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9091/envios",
+							"raw": "http://localhost:9091/shipping/envios/enviosporusuario/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
-								"envios"
+								"shipping",
+								"envios",
+								"enviosporusuario",
+								"1"
 							]
 						}
 					},
@@ -1174,7 +1220,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"id\": 1,\r\n  \"contratoId\":1,\r\n  \"direccionOrigenId\": 1,\r\n  \"direccionDestinoId\": 2,\r\n  \"vehiculoId\": 3,\r\n  \"conductorId\": 3,\r\n  \"marcaDeTiempoInicio\": \"2/04/2022-13:45\",\r\n  \"marcaDeTiempoFin\": \"NA\",\r\n  \"estadoDeEnvioId\": 1,\r\n  \"tiposEnviosId\": 1\r\n}",
+							"raw": "{\r\n  \"id\": 4,\r\n  \"contratoId\":1,\r\n  \"direccionOrigenId\": 1,\r\n  \"direccionDestinoId\": 2,\r\n  \"vehiculoId\": 3,\r\n  \"conductorId\": 3,\r\n  \"marcaDeTiempoInicio\": \"LUNES\",\r\n  \"marcaDeTiempoFin\": \"NA\",\r\n  \"estadoDeEnvioId\": 1,\r\n  \"tiposEnviosId\": 1\r\n}\r\n\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1182,13 +1228,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/envios",
+							"raw": "http://localhost:9091/shipping/envios",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"envios"
 							]
 						}
@@ -1210,13 +1257,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/envios/1",
+							"raw": "http://localhost:9091/shipping/envios/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"envios",
 								"1"
 							]
@@ -1252,6 +1300,26 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "getEnvios",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9091/shipping/envios",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9091",
+							"path": [
+								"shipping",
+								"envios"
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		},
@@ -1264,13 +1332,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9091/condicionesDeEnvio",
+							"raw": "http://localhost:9091/shipping/condicionesDeEnvio",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"condicionesDeEnvio"
 							]
 						}
@@ -1292,13 +1361,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/condicionesDeEnvio",
+							"raw": "http://localhost:9091/shipping/condicionesDeEnvio",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"condicionesDeEnvio"
 							]
 						}
@@ -1320,13 +1390,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/condicionesDeEnvio",
+							"raw": "http://localhost:9091/shipping/condicionesDeEnvio",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"condicionesDeEnvio"
 							]
 						}
@@ -1348,13 +1419,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/condicionesDeEnvio/1",
+							"raw": "http://localhost:9091/shipping/condicionesDeEnvio/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"condicionesDeEnvio",
 								"1"
 							]
@@ -1377,13 +1449,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/condicionesDeEnvio/2",
+							"raw": "http://localhost:9091/shipping/condicionesDeEnvio/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"condicionesDeEnvio",
 								"2"
 							]
@@ -1402,13 +1475,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9091/unidadesPesos",
+							"raw": "http://localhost:9091/shipping/unidadesPesos",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"unidadesPesos"
 							]
 						}
@@ -1430,13 +1504,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/unidadesPesos",
+							"raw": "http://localhost:9091/shipping/unidadesPesos",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"unidadesPesos"
 							]
 						}
@@ -1458,13 +1533,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/unidadesPesos",
+							"raw": "http://localhost:9091/shipping/unidadesPesos",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"unidadesPesos"
 							]
 						}
@@ -1486,13 +1562,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/unidadesPesos/1",
+							"raw": "http://localhost:9091/shipping/unidadesPesos/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"unidadesPesos",
 								"1"
 							]
@@ -1515,13 +1592,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/unidadesPesos/2",
+							"raw": "http://localhost:9091/shipping/unidadesPesos/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"unidadesPesos",
 								"2"
 							]
@@ -1540,13 +1618,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9091/unidadesDimensiones",
+							"raw": "http://localhost:9091/shipping/unidadesDimensiones",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"unidadesDimensiones"
 							]
 						}
@@ -1568,13 +1647,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/unidadesDimensiones",
+							"raw": "http://localhost:9091/shipping/unidadesDimensiones",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"unidadesDimensiones"
 							]
 						}
@@ -1596,13 +1676,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/unidadesDimensiones",
+							"raw": "http://localhost:9091/shipping/unidadesDimensiones",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"unidadesDimensiones"
 							]
 						}
@@ -1624,13 +1705,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/unidadesDimensiones/1",
+							"raw": "http://localhost:9091/shipping/unidadesDimensiones/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"unidadesDimensiones",
 								"1"
 							]
@@ -1653,13 +1735,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/unidadesDimensiones/2",
+							"raw": "http://localhost:9091/shipping/unidadesDimensiones/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"unidadesDimensiones",
 								"2"
 							]
@@ -1678,13 +1761,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9091/tiposDeCargas",
+							"raw": "http://localhost:9091/shipping/tiposDeCargas",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"tiposDeCargas"
 							]
 						}
@@ -1706,13 +1790,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/tiposDeCargas",
+							"raw": "http://localhost:9091/shipping/tiposDeCargas",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"tiposDeCargas"
 							]
 						}
@@ -1734,13 +1819,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/tiposDeCargas",
+							"raw": "http://localhost:9091/shipping/tiposDeCargas",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"tiposDeCargas"
 							]
 						}
@@ -1762,13 +1848,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/tiposDeCargas/1",
+							"raw": "http://localhost:9091/shipping/tiposDeCargas/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"tiposDeCargas",
 								"1"
 							]
@@ -1791,13 +1878,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/tiposDeCargas/2",
+							"raw": "http://localhost:9091/shipping/tiposDeCargas/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"tiposDeCargas",
 								"2"
 							]
@@ -1816,13 +1904,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9091/condicionesDeRiesgo",
+							"raw": "http://localhost:9091/shipping/condicionesDeRiesgo",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"condicionesDeRiesgo"
 							]
 						}
@@ -1844,13 +1933,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/condicionesDeRiesgo",
+							"raw": "http://localhost:9091/shipping/condicionesDeRiesgo",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"condicionesDeRiesgo"
 							]
 						}
@@ -1872,13 +1962,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/condicionesDeRiesgo",
+							"raw": "http://localhost:9091/shipping/condicionesDeRiesgo",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"condicionesDeRiesgo"
 							]
 						}
@@ -1900,13 +1991,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/condicionesDeRiesgo/1",
+							"raw": "http://localhost:9091/shipping/condicionesDeRiesgo/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"condicionesDeRiesgo",
 								"1"
 							]
@@ -1929,13 +2021,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/condicionesDeRiesgo/2",
+							"raw": "http://localhost:9091/shipping/condicionesDeRiesgo/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"condicionesDeRiesgo",
 								"2"
 							]
@@ -1954,13 +2047,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9091/cargas",
+							"raw": "http://localhost:9091/shipping/shipping/cargas",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
+								"shipping",
 								"cargas"
 							]
 						}
@@ -1982,13 +2077,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/cargas",
+							"raw": "http://localhost:9091/shipping/cargas",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"cargas"
 							]
 						}
@@ -2010,13 +2106,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/cargas",
+							"raw": "http://localhost:9091/shipping/cargas",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"cargas"
 							]
 						}
@@ -2038,13 +2135,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/cargas/1",
+							"raw": "http://localhost:9091/shipping/cargas/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"cargas",
 								"1"
 							]
@@ -2067,13 +2165,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/cargas/2",
+							"raw": "http://localhost:9091/shipping/cargas/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"cargas",
 								"2"
 							]
@@ -2120,13 +2219,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/cargasEnviosCondicionesDeRiesgo",
+							"raw": "http://localhost:9091/shipping/cargasEnviosCondicionesDeRiesgo",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"cargasEnviosCondicionesDeRiesgo"
 							]
 						}
@@ -2148,13 +2248,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/cargasEnviosCondicionesDeRiesgo",
+							"raw": "http://localhost:9091/shipping/cargasEnviosCondicionesDeRiesgo",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"cargasEnviosCondicionesDeRiesgo"
 							]
 						}
@@ -2176,13 +2277,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/cargasEnviosCondicionesDeRiesgo/1",
+							"raw": "http://localhost:9091/shipping/cargasEnviosCondicionesDeRiesgo/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"cargasEnviosCondicionesDeRiesgo",
 								"1"
 							]
@@ -2205,13 +2307,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9091/cargasEnviosCondicionesDeRiesgo/2",
+							"raw": "http://localhost:9091/shipping/cargasEnviosCondicionesDeRiesgo/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "9091",
 							"path": [
+								"shipping",
 								"cargasEnviosCondicionesDeRiesgo",
 								"2"
 							]
@@ -2225,7 +2328,7 @@
 			"name": "Cotizar",
 			"item": [
 				{
-					"name": "New Request",
+					"name": "cotizar",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},

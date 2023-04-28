@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 import com.example.shipping.model.Envios;
 import com.example.shipping.repository.EnviosRepository;
 
+import java.util.ArrayList;
 import java.util.List;
 @Service
 public class EnviosService {
@@ -22,6 +23,18 @@ public class EnviosService {
 
     public void addEnvios(Envios envios) {
         enviosRepository.save(envios);
+    }
+
+    public List<Envios> getEnviosByCostumer(Integer idCostumer){
+        List<Envios> allEnvios = new ArrayList<>();
+        allEnvios.addAll(enviosRepository.findAll());
+        List<Envios> enviosByCostumer = new ArrayList<>();
+        for(Envios envio: allEnvios){
+            if( envio.getContratoId().equals(idCostumer)){
+                enviosByCostumer.add(envio);
+            }
+        } 
+        return enviosByCostumer;
     }
 
     public void updateEnvios(Integer id, Envios envios) {

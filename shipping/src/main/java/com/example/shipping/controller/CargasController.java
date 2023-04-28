@@ -20,7 +20,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/cargas")
+@RequestMapping("/shipping/cargas")
 public class CargasController {
     @Autowired
     private CargasService cargasService;

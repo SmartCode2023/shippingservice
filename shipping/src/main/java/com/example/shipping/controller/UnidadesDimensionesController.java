@@ -12,7 +12,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/unidadesDimensiones")
+@RequestMapping("/shipping/unidadesDimensiones")
 public class UnidadesDimensionesController {
     @Autowired
     private UnidadesDimensionesService unidadesDimensionesService;
